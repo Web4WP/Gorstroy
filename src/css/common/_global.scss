@@ -1,0 +1,87 @@
+:root {
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --font-size: 16px;
+  --font-roboto: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+html, body, h1, h2, h3, h4, h5, h6, p, button, ul, ol {
+  margin: 0;
+  padding: 0;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+body {
+  font-family: var(--font-roboto);
+  font-size: var(--font-size);
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.375;
+  color: var(--color-black);
+  background: var(--color-white);
+}
+
+svg {
+  display: inline-block;
+  fill: currentColor;
+  stroke: none;
+}
+
+a {
+  color: var(--color-black);
+  text-decoration: none;
+  &:hover,
+  &:focus {
+    color: var(--color-black);
+    text-decoration: none;
+  }
+}
+
+button {
+  background: transparent;
+  border: none;
+  outline: none;
+  &:hover {
+    cursor: pointer;
+  }
+  &:focus {
+    outline: none;
+  }
+}
+
+input {
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  &:focus {
+    outline: none;
+  }
+}
+
+label {
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  max-width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+@media (min-width: 1000px) {
+
+  .container {
+    max-width: 1170px;
+  }
+
+}

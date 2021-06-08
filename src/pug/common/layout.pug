@@ -1,0 +1,23 @@
+doctype html
+html(lang="ru")
+  block head
+    head
+      meta(charset="utf-8")
+      meta(name="viewport" content="width=device-width, initial-scale=1.0")
+      meta(http-equiv="X-UA-Compatible" content="ie=edge")
+      link(rel="shortcut icon" href="img/favicon.ico" type="image/x-icon")
+      link(rel="icon" href="img/favicon.ico" type="image/x-icon")
+      link(rel="stylesheet" href="css/lib/owl-carousel/owl.carousel.min.css")
+      link(rel="stylesheet" href="css/stylesheet.css")
+      title Start Project
+  body
+    block header
+      include header
+    block main
+    block footer
+      include footer
+    block scripts
+      script(src="js/lib/jquery/jquery-3.5.1.min.js")
+      script(src="js/lib/bootstrap/bootstrap.bundle.min.js")
+      script(src="js/lib/owl-carousel/owl.carousel.min.js")
+      script(src="js/main.js")
