@@ -2,5 +2,12 @@ extends ../common/layout
 
 block main
   main
-    include ../includes/index/index-block
-    include ../reuse/reuse-block
+    include ../includes/index/slider
+    section.catalog
+      div.container
+        h2.catalog__title.section-title у нас м<img src="img/svg/wheel.svg" alt="">жно арендовать
+      include ../reuse/catalog
+    //-include ../includes/index/about
+    //-include ../includes/index/service
+    //-include ../reuse/cta
+    //-include ../reuse/contact

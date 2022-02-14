@@ -1,3 +1,9 @@
+/* Bootstrap */
+@import "lib/bootstrap/functions";
+@import "lib/bootstrap/variables";
+@import "lib/bootstrap/mixins";
+@import "lib/bootstrap/modal";
+
 /* Common */
 @import "common/fonts";
 @import "common/global";
@@ -5,6 +11,10 @@
 @import "common/footer";
 
 /* Reuse */
-@import "reuse/reuse-block";
+@import "reuse/cta";
 /* Includes - Index */
-@import "includes/index/index-block";
+@import "includes/index/slider";
+@import "includes/index/catalog";
+@import "includes/index/about";
+@import "includes/index/service";
+@import "includes/index/contact";

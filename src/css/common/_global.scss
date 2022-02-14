@@ -1,8 +1,10 @@
 :root {
   --color-white: #ffffff;
   --color-black: #000000;
-  --font-size: 16px;
-  --font-roboto: "Roboto", Arial, Helvetica, sans-serif;
+  --color-yellow: #f29a00;
+  --font-size: 18px;
+  --font-merriweather: "Merriweather", Arial, Helvetica, sans-serif;
+  --font-firasans: "Fira Sans", Arial, Helvetica, sans-serif;
 }
 
 html, body, h1, h2, h3, h4, h5, h6, p, button, ul, ol {
@@ -15,11 +17,11 @@ ul, ol {
 }
 
 body {
-  font-family: var(--font-roboto);
+  font-family: var(--font-merriweather);
   font-size: var(--font-size);
-  font-weight: 400;
+  font-weight: 300;
   font-style: normal;
-  line-height: 1.375;
+  line-height: 1.5;
   color: var(--color-black);
   background: var(--color-white);
 }
@@ -78,10 +80,23 @@ img {
   margin: 0 auto;
 }
 
+.section-title {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-family: var(--font-firasans);
+  font-size: 50px;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: center;
+}
+
 @media (min-width: 1000px) {
 
   .container {
-    max-width: 1170px;
+    max-width: 1345px;
   }
 
 }
